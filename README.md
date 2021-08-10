@@ -29,6 +29,10 @@ v1.0.0 RealM一键脚本问世
 
 ![image](https://mxpic.ml/2021/02/09/20210209_a2b2352881fa5.png)
 ## 使用方法
+注：本脚本fork自seal0207，更新编译realm版本为最新且为aarch64使用。
+新版realm一键脚本：
+wget -N --no-check-certificate https://git.io/Arealm.sh && chmod +x realm.sh && ./realm.sh
+
 一键脚本：
 `wget -N --no-check-certificate https://git.io/realm.sh && chmod +x realm.sh && ./realm.sh`
 ### 啰嗦一句
