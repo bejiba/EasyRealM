@@ -33,6 +33,7 @@ v1.0.0 RealM一键脚本问世
 
 新版realm一键脚本：
 `wget -N --no-check-certificate https://git.io/Arealm.sh && chmod +x realm.sh && ./realm.sh`
+
 一键脚本：
 `wget -N --no-check-certificate https://git.io/realm.sh && chmod +x realm.sh && ./realm.sh`
 ### 啰嗦一句
