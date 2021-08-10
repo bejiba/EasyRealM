@@ -33,7 +33,7 @@ Install_RealM(){
   start_menu
   fi
   echo -e "#############################################################"
-  echo -e "#    请选择下载点:  1.国外   2.国内                         #"
+  echo -e "#    请选择下载点:  1.国外   2.国内(国内未有最新版且适应arm)                         #"
   echo -e "#############################################################"
   read -p "请选择(默认国外): " download
   [[ -z ${download} ]] && download="1"
@@ -54,16 +54,16 @@ Install_RealM(){
   else
   echo -e "#############################################################"
   echo -e "#                     请选择下载版本:                       #"  
-  echo -e "#    1.（1.2.2为修复断流版）   2.（1.2.0原作者最后一版）    #"
+  echo -e "#    1.（1.4最新版）   2.（1.2.0原作者最后一版ps:未适应arm）    #"
   echo -e "#############################################################"
-  read -p "请选择(默认为1.2.2修复断流版): " version
+  read -p "请选择(默认为1.4最新版): " version
   [[ -z ${version} ]] && version="1"
   if [[ ${version} == [2] ]]; then  
   mkdir /etc/realm
   wget -N --no-check-certificate https://github.com/seal0207/EasyRealM/raw/main/realm1.2.0 && chmod +x realm1.2.0 && mv realm1.2.0 /etc/realm/realm
   else
   mkdir /etc/realm
-  wget -N --no-check-certificate https://github.com/seal0207/EasyRealM/raw/main/realm1.2.2 && chmod +x realm1.2.2 && mv realm1.2.2 /etc/realm/realm  
+  wget -N --no-check-certificate https://github.com/bejiba/EasyRealM/raw/main/realm1.4 && chmod +x realm1.4 && mv realm1.4 /etc/realm/realm  
   fi
   fi
   
