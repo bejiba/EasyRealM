@@ -31,7 +31,7 @@ v1.0.0 RealM一键脚本问世
 ## 使用方法
 注：本脚本fork自seal0207，更新编译realm版本为最新且为aarch64使用。										
 
-新版realm一键脚本：
+新版realm1.4 一键脚本：
 `wget -N --no-check-certificate https://git.io/Arealm.sh && chmod +x realm.sh && ./realm.sh`
 
 一键脚本：
