@@ -54,13 +54,13 @@ Install_RealM(){
   else
   echo -e "#############################################################"
   echo -e "#                     请选择下载版本:                       #"  
-  echo -e "#    1.（1.4最新版）   2.（1.2.0原作者最后一版ps:未适应arm）    #"
+  echo -e "#    1.（1.4最新版）   2.（1.4realm ALL 44M）    #"
   echo -e "#############################################################"
   read -p "请选择(默认为1.4最新版): " version
   [[ -z ${version} ]] && version="1"
   if [[ ${version} == [2] ]]; then  
   mkdir /etc/realm
-  wget -N --no-check-certificate https://github.com/seal0207/EasyRealM/raw/main/realm1.2.0 && chmod +x realm1.2.0 && mv realm1.2.0 /etc/realm/realm
+  wget -N --no-check-certificate https://github.com/bejiba/EasyRealM/releases/download/1.4/realm1.4.all && chmod +x realm1.2.0 && mv realm1.2.0 /etc/realm/realm
   else
   mkdir /etc/realm
   wget -N --no-check-certificate https://github.com/bejiba/EasyRealM/raw/main/realm1.4 && chmod +x realm1.4 && mv realm1.4 /etc/realm/realm  
