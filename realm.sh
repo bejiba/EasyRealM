@@ -60,7 +60,7 @@ Install_RealM(){
   [[ -z ${version} ]] && version="1"
   if [[ ${version} == [2] ]]; then  
   mkdir /etc/realm
-  wget -N --no-check-certificate https://github.com/bejiba/EasyRealM/releases/download/1.4/realm1.4.all && chmod +x realm1.2.0 && mv realm1.2.0 /etc/realm/realm
+  wget -N --no-check-certificate https://github.com/bejiba/EasyRealM/releases/download/1.4/realm1.4.all && chmod +x realm1.4.all && mv realm1.4.all /etc/realm/realm
   else
   mkdir /etc/realm
   wget -N --no-check-certificate https://github.com/bejiba/EasyRealM/raw/main/realm1.4 && chmod +x realm1.4 && mv realm1.4 /etc/realm/realm  
